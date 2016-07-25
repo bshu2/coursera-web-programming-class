@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: green;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: blue;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 20px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  background: white;
+  opacity: .6;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+#nav-list a:hover {
+  background: gray;
+}
+#nav-list a span {
+  background: white;
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #179dab;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* BODY */
+#main-content {
+  margin-top: 70px;
+}
+
+#content-box {
+  background-color: #fff;
+  opacity: .6;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+#content-box h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+#content-box p {
+  color: #000;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#header-nav {
+  padding-bottom: 0;
+}
